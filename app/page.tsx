@@ -47,7 +47,6 @@ export default function Home() {
             </TableRow>
           </TableHeader>
           <TableBody>
-
             {
               users.map((user) => (
                 <>
@@ -60,7 +59,6 @@ export default function Home() {
                 </>
               ))
             }
-
           </TableBody>
         </Table>
       </div>
